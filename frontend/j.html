@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Nhận dạng chữ viết tay tiếng Việt</title>
+  <link rel="stylesheet" href="q.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Nhận dạng chữ viết tay tiếng Việt</h2>
+
+    <div class="upload-box">
+      <input type="file" id="fileInput" accept="image/png, image/jpeg">
+      <button id="predictChar">Nhận dạng ký tự</button>
+      <button id="predictLine">Nhận dạng dòng/câu</button>
+    </div>
+
+    <div id="preview">
+      <p><b>Ảnh xem trước:</b></p>
+      <img id="previewImg" src="#" alt="Preview" style="display:none; max-width:300px;">
+    </div>
+
+    <div id="result">
+      <p><b>Kết quả:</b></p>
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <script src="k.js"></script>
+</body>
+</html>
